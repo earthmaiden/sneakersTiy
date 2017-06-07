@@ -1,0 +1,239 @@
+header{
+  font-family: "Ubuntu", "Roboto", sans-serif;
+  color: black;
+  height: 100px;
+  width: 100%;
+}
+
+body{
+  background-color: white;
+  font-family: "Ubuntu", "Roboto", sans-serif;
+
+}
+
+footer{
+  color: #babdc1;
+  height: 100px;
+  width: 100%;
+  display: inline-block;
+}
+
+h1{
+  color: white;
+  font-size: 28px;
+
+}
+h2{
+  color: black;
+  font-size: 24px;
+}
+
+h3{
+  color: white;
+  font-size: 26px;
+}
+
+h4{
+  color: black;
+  font-size: 16px;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+h5{
+  font-size: 16px;
+  color: blue
+}
+
+
+hr{
+  background: inherit;
+  border-top: 2px dashed #8c8b8b;
+}
+
+img{
+  max-width:100%;
+  max-height:100%;
+}
+
+
+.clearfix{
+  overflow: auto;
+  zoom: 1;
+}
+
+.logo{
+  float: left;
+  display: inline-block;
+  height: 25%;
+  width: auto;
+}
+
+
+/*.hr_style1{
+	border-top: 2px dashed black;
+  width:auto;
+  margin-top: 22px;
+  margin-bottom: 22px;*/
+
+
+.nav_primary{
+  background: transparent;
+  float: left;
+  height: 30%;
+
+}
+
+.nav_primary a{
+  float:left;
+  display: inline-block;
+  text-transform:uppercase;
+  font-size: inherit;
+  color: orangered;
+  font-weight:bold;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.nav_primary a:hover{
+  color: deeppink;
+  text-decoration: underline;
+}
+
+.primary_navigation_bar a:active{
+  color: deeppink;
+  text-decoration: underline;
+}
+
+.nav_top_right{
+  background: transparent;
+  float: right;
+}
+
+.nav_top_right a{
+  float: left;
+  display: inline-block;
+  color: orangered;
+  font-weight:bold;
+  text-align: center;
+  padding-left:0px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+.nav_body{
+
+}
+
+.nav_bottom_right{
+  color: transparent;
+  float: right;
+  display: inline-block;
+}
+
+.nav_bottom_right a{
+  float: left;
+  display: inline;
+  color: gray;
+  font-size: inherit;
+  font-weight:bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.main_img{
+  width: 100%;
+  background: linear-gradient(to right, DeepPink , OrangeRed);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.main_img img{
+  width: 75%
+
+}
+
+/*.main_img_container_left{
+  /*float:left;*/
+
+/*.main_img a{
+  color: white;
+  text-decoration: none;
+
+}*/
+
+/*.main_img_container_right{
+    float:left;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    display: inline-block;
+    /*float: right;*/
+  /*clear: both*/
+
+#addedItem{
+  visibility: hidden
+}
+
+.main_img_container_right a{
+  color: black;
+}
+
+.secondary_img{
+  background: linear-gradient(to right, DeepPink , OrangeRed);
+  color: white;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+
+}
+
+.main_body{
+
+}
+
+.secondary_img_container img{
+  width: 39%
+}
+
+.secondary_header{
+  background: deeppink;
+
+  text-align: center;
+}
+
+.secondary_img_container{
+  color: white;
+  width: 100%;
+  height: 250px;
+  padding: 15px;
+  display:inline-block;
+}
+
+.secondary_img img{
+  max-height: 200px;
+  display:inline-block;
+}
+
+.secondary_img a{
+  max-height: 200px;
+
+}
+/*display the image here to find out what size you need each section.*/
+.buy_now{
+  width: auto;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 50px, 50px;
+  font-size: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 1px white;
+  padding: 0px;
+}
