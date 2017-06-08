@@ -4,8 +4,9 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Jaldi" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="clearfix.css">
   </head>
 
   <body>
@@ -34,26 +35,22 @@
       </div>
 
       <div class="main_img_container_right">
-        <h1>Quick Sneakers</h1>
+        <h1>Quick Sneakers</h1><hr class=hr_style1>
         <p>words words words words words words words words words words words<br>
           <a href="http://becomethink.com">Read The Reviews</p></a>
           <p>$120.00</p>
-          <button id="buyNowButton" type="button" class="buyNowButton">Buy Now!</button>
-        </div>
-
-      <div id="addedItem">
-        <p>item added!</p>
-      <div>
-
-        <div id="closeBtn"></div>
-
+          <hr class=hr_style1>
+          <button id="buyNowButton" type="button" class="buyNowButton">buy now!</button>
+          <button id="addedItem" type="button" class="addedItem">Item added!</button>
+      </div>
     </section>
 
     <section class="main_body">
-      <nav class="nav_body">
-          <a href="http://becomethink.com"></p>Product Details</a>
-          <a href="http://becomethink.com">Size and Fit</p></a>
-      </nav>
+      <div class="nav_body">
+          <div id="productDetails" class="productDetails"><h2>Product Details</h2>
+          </div>
+          <div id="sizeAndFit" class="sizeAndFit"><h2>Size and Fit</h2></div>
+      </div>
 
       <div class="review_rating">
         <p>Reviews</p>
@@ -66,18 +63,24 @@
       <h2>What Our Customers Are Saying</h2>
       <p>these are cool sneakers</p>
 
-        <h2 class=".secondary_header">Shop Reccommended Shoes</h2>
+        <h2 class="secondary_header">Shop Reccommended Shoes</h2>
 
     </section>
 
 
     <section class="secondary_img">
+      <div class="secondary_img_container">
       <img src="/Users/emmadean/Desktop/Web_Dev_Basics_TIY/Assignments/Day_One/images/shoe2.png" alt="Shoe 2">
-        <a href="http://placeholder.com/shoe2"><h3>Funny Sneakers</h3><p>$120</p></a>
+        <a href="#"><h3>Funny Sneakers</h3><p>$120</p><h4>spring summer 2017</h4></a>
+      </div>
+      <div class="secondary_img_container">
       <img src="/Users/emmadean/Desktop/Web_Dev_Basics_TIY/Assignments/Day_One/images/shoe3.png" alt="Shoe 3">
-        <a href="http://placeholder.com/shoe2"><h3>Funny Sneakers</h3><p>$120</p></a>
-      <img src="/Users/emmadean/Desktop/Web_Dev_Basics_TIY/Assignments/Day_One/images/shoe4.png" alt="Shoe 4">
-        <a href="http://placeholder.com/shoe2"><h3>Funny Sneakers</h3><p>$120</p></a>
+        <a href="#"><h3>Funny Sneakers</h3><p>$120</p><h4>spring summer 2017</h4></a>
+      </div>
+      <div class="secondary_img_container">
+        <img src="/Users/emmadean/Desktop/Web_Dev_Basics_TIY/Assignments/Day_One/images/shoe4.png" alt="Shoe 4">
+        <a href="#"><h3>Funny Sneakers</h3><p>$120</p><h4>spring summer 2017</h4></a>
+      </div>
     </section>
 
     <footer>
@@ -98,7 +101,7 @@
       </nav>
 
     </footer>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="main.js"></script>
   </body>
 

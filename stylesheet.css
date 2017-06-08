@@ -1,5 +1,5 @@
 header{
-  font-family: "Ubuntu", "Roboto", sans-serif;
+  font-family: "Open Sans", "Jaldi", sans-serif;
   color: black;
   height: 100px;
   width: 100%;
@@ -7,7 +7,7 @@ header{
 
 body{
   background-color: white;
-  font-family: "Ubuntu", "Roboto", sans-serif;
+  font-family: "Open Sans", "Jaldi", sans-serif;
 
 }
 
@@ -31,6 +31,7 @@ h2{
 h3{
   color: white;
   font-size: 26px;
+  display: inline-block;
 }
 
 h4{
@@ -70,11 +71,16 @@ img{
 }
 
 
-/*.hr_style1{
+.hr_style1{
 	border-top: 2px dashed black;
   width:auto;
-  margin-top: 22px;
-  margin-bottom: 22px;*/
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+/*.hr_style2{
+  color: deeppink;
+}*/
 
 
 .nav_primary{
@@ -101,10 +107,10 @@ img{
   text-decoration: underline;
 }
 
-.primary_navigation_bar a:active{
+/*.primary_navigation_bar a:active{
   color: deeppink;
   text-decoration: underline;
-}
+}*/
 
 .nav_top_right{
   background: transparent;
@@ -120,9 +126,21 @@ img{
   padding-left:0px;
   padding-right: 10px;
   text-decoration: none;
+  text-transform: capitalize;
 }
 
-.nav_body{
+.sizeAndFit{
+  color: orangered;
+}
+
+.nav_body a{
+
+  text-transform:uppercase;
+  font-size: inherit;
+  color: orangered;
+  font-weight:bold;
+  text-align: center;
+  text-decoration: none;
 
 }
 
@@ -175,12 +193,11 @@ img{
     /*float: right;*/
   /*clear: both*/
 
-#addedItem{
-  visibility: hidden
-}
+
 
 .main_img_container_right a{
   color: black;
+  float: right;
 }
 
 .secondary_img{
@@ -194,7 +211,15 @@ img{
 
 }
 
-.main_body{
+.nav_body{
+  display: inline-block;
+  text-transform:uppercase;
+  font-size: inherit;
+  color: orangered;
+  font-weight:bold;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
 
 }
 
@@ -204,36 +229,50 @@ img{
 
 .secondary_header{
   background: deeppink;
-
   text-align: center;
 }
 
 .secondary_img_container{
   color: white;
   width: 100%;
-  height: 250px;
-  padding: 15px;
-  display:inline-block;
+  display:flex;
+  flex-direction: column;
 }
 
-.secondary_img img{
+/*.secondary_img img{
   max-height: 200px;
-  display:inline-block;
-}
+  display:flex;
+}*/
 
 .secondary_img a{
-  max-height: 200px;
-
+  text-decoration: none;
+  display: inline;
 }
+
+
 /*display the image here to find out what size you need each section.*/
-.buy_now{
-  width: auto;
-  height: auto;
-  border: 2px solid black;
-  border-radius: 50px, 50px;
-  font-size: 24px;
-  letter-spacing: 2px;
+.buyNowButton{
+  width: 30%;
+  border-radius: 24px;
+  font-size: 22px;
   text-transform: uppercase;
-  border: 1px white;
   padding: 0px;
+  background-color: white;
+  color: orangered;
+}
+
+.buyNowButton hover{
+  background-color: white;
+  border: 2px solid white;
+}
+
+.addedItem{
+  display: none;
+  width: 30%;
+  border-radius: 24px;
+  font-size: 22px;
+  text-transform: uppercase;
+  padding: 0px;
+  background-color: white;
+  color: orangered;
 }
